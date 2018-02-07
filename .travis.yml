@@ -19,7 +19,6 @@ script:
   - yarn run test
   - yarn run flow
   - yarn run build
-  - yarn run build-storybook
 
 after_success:
   - ./node_modules/.bin/codecov
