@@ -1,0 +1,44 @@
+sudo: false
+language: node_js
+node_js:
+  - "9.5.0"
+
+env:
+  global:
+    - YARN_VERSION=1.3.2
+
+before_install:
+  - export PATH="$HOME/.yarn/bin:$PATH"
+  - |
+    if [[ ! -e ~/.yarn/bin/yarn || $(yarn --version) != "${YARN_VERSION}" ]]; then
+      curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version $YARN_VERSION
+    fi
+
+script:
+  - yarn run eslint
+  - yarn run test
+  - yarn run flow
+  - yarn run build
+  - yarn run build-storybook
+
+after_success:
+  - ./node_modules/.bin/codecov
+
+deploy:
+  - provider: npm
+    email: evenchange4@gmail.com
+    api_key:
+      secure: mnb9+3niQlESDEMebhLgfrwYbH7USKkakGuWhxtnBuCmwWSX1UPlQ7Dsa25kCoc2uZwB7YuKQRHDlYxKpH6Pp0rcLYm1x7yobM2060Yw59pU1jMtMH+IL904cT3D47M8LQyQG8NOuTA7F0Bnor+4rHq+xRqmUN+DKkQo+EKSi275oQjyza6bV21kZD1ylBEZfN4StXZO3yRSTpW9NRZuf+rPh7sfU+fmjlqeZ/M7WiPMwhdZJoCexmJMXAfS5oXMz5lUy+Jn5DvUN7Ef3IJILWXgbH1nPAIkpqHHo4oGubIEN18tTZaHXsrrBTlwiFcgcQ+j9k6zVlJMKs7g3MvMzYejPvO/Km8CwUi0VjpTaLHFn/9bWsZcYoz1pw7Mn23I/TKB4KXZmp8ELaaLL5cRKfD+/eHUJM9STQJCWdvsjcXShOu6EMsXpuR+eYYqCawhuvgxeKdJnGydM/hvC+TmvZQIX9iU0T1i6QNAvE66E6P4ncp8zso/PUEEDHZb9miD1veWjqjqlwkj2og5MUAkplAotvHHvbXrVhguVczEy3kejOXYCkrWVfY3uCOGtDx3fyOPrz15DkJTgsrjx1I2tG0SwchI0ODqI+dYGME6Nz/b6CwYwOJ9yqybeoK2vVDHGjHKrGN3guw7Hj/qANou/tTBCbIFB85g7PefhNc2g6I=
+    skip_cleanup: true
+    on:
+      tags: true
+      repo: evenchange4/apollo-link-log
+
+cache:
+  yarn: true
+  directories:
+    - "~/.yarn"
+    - node_modules
+
+notifications:
+  email: evenchange4@gmail.com

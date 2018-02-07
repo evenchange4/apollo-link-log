@@ -1,0 +1,131 @@
+{
+  "name": "apollo-link-log",
+  "version": "0.1.0",
+  "description": "Log side effect for Apollo Link.",
+  "author": "Michael Hsu <evenchange4@gmail.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "typings": "./index.d.ts",
+  "files": ["lib"],
+  "scripts": {
+    "clean": "rm -rf lib",
+    "prebuild": "npm run clean",
+    "build":
+      "NODE_ENV=production babel src --out-dir lib --copy-files --ignore '**/*.test.js'",
+    "test": "jest --coverage --runInBand",
+    "test:watch": "npm run test -- --watch",
+    "eslint": "eslint ./",
+    "format": "prettier --write 'src/**/*.js' 'src/**/*.flow' '*.{json,md}'",
+    "flow": "flow",
+    "precommit": "lint-staged",
+    "changelog":
+      "github-changes -o evenchange4 -r apollo-link-log -b master -f ./CHANGELOG.md --order-semver --use-commit-body"
+  },
+  "peerDependencies": {
+    "apollo-link": "^1.0.0",
+    "graphql": "^0.12.0"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.0.0-beta.39",
+    "@babel/core": "7.0.0-beta.39",
+    "@babel/node": "7.0.0-beta.39",
+    "@babel/plugin-proposal-object-rest-spread": "7.0.0-beta.39",
+    "@babel/preset-env": "7.0.0-beta.39",
+    "@babel/preset-flow": "7.0.0-beta.39",
+    "apollo-link": "1.0.7",
+    "ast-pretty-print": "2.0.1",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "8.2.1",
+    "babel-flow-types": "1.2.3",
+    "babel-jest": "22.1.0",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-plugin-tester": "5.0.0",
+    "codecov": "3.0.0",
+    "eslint": "4.17.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-flowtype": "2.42.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jest": "21.7.0",
+    "eslint-plugin-prettier": "2.6.0",
+    "flow-bin": "0.65.0",
+    "github-changes": "1.1.2",
+    "graphql": "0.12.3",
+    "husky": "0.14.3",
+    "jest": "22.1.4",
+    "lint-staged": "6.1.0",
+    "prettier": "1.10.2"
+  },
+  "jest": {
+    "collectCoverageFrom": ["src/**/*.js", "!src/**/*.test.js"],
+    "testPathIgnorePatterns": [
+      "<rootDir>/node_modules/",
+      "<rootDir>/lib/",
+      "<rootDir>/example/"
+    ],
+    "resetMocks": true,
+    "resetModules": true
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ],
+      "@babel/preset-flow"
+    ],
+    "plugins": [
+      "babel-plugin-add-module-exports",
+      "@babel/plugin-proposal-object-rest-spread"
+    ]
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "singleQuote": true
+  },
+  "lint-staged": {
+    "*.{js,json,md}": ["prettier --write", "git add"]
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": [
+      "airbnb-base",
+      "plugin:flowtype/recommended",
+      "plugin:jest/recommended",
+      "prettier",
+      "prettier/react",
+      "prettier/flowtype"
+    ],
+    "plugins": ["prettier", "jest", "flowtype"],
+    "env": {
+      "jest/globals": true
+    },
+    "rules": {
+      "prettier/prettier": "error",
+      "import/no-extraneous-dependencies": 0
+    }
+  },
+  "eslintIgnore": [
+    "node_modules",
+    "coverage",
+    "lib",
+    "flow-typed",
+    "lib/index.js.flow"
+  ],
+  "bugs": {
+    "url": "https://github.com/evenchange4/apollo-link-log/issues",
+    "email": "evenchange4@gmail.com"
+  },
+  "homepage": "https://github.com/evenchange4/apollo-link-log#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evenchange4/apollo-link-log.git"
+  }
+}
