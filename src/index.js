@@ -36,7 +36,7 @@ variables: ${JSON.stringify(variables, null, 2)}
 const createLogLink = ({
   logger = DEFAULT_LOGGER,
   enabled = true,
-}: Options): any =>
+}: Options = {}): any =>
   new ApolloLink((operation, forward) =>
     forward(operation).map(result => {
       if (!enabled) return result;

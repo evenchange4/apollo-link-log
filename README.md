@@ -28,12 +28,16 @@ import createLogLink from 'apollo-link-log';
 // Default
 ApolloLink.concat(createLogLink());
 
-// Custom
+// With options
 ApolloLink.concat(createLogLink({
   enabled: process.env.NODE_ENV !== 'production',
   logger: ({ operation, operationName, query, variables }) => {...};
 }));
 ```
+
+## Snapshot
+
+![](./docs/snapshot.png)
 
 ## Options
 

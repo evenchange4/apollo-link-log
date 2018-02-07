@@ -28,7 +28,7 @@ deploy:
   - provider: npm
     email: evenchange4@gmail.com
     api_key:
-      secure: mnb9+3niQlESDEMebhLgfrwYbH7USKkakGuWhxtnBuCmwWSX1UPlQ7Dsa25kCoc2uZwB7YuKQRHDlYxKpH6Pp0rcLYm1x7yobM2060Yw59pU1jMtMH+IL904cT3D47M8LQyQG8NOuTA7F0Bnor+4rHq+xRqmUN+DKkQo+EKSi275oQjyza6bV21kZD1ylBEZfN4StXZO3yRSTpW9NRZuf+rPh7sfU+fmjlqeZ/M7WiPMwhdZJoCexmJMXAfS5oXMz5lUy+Jn5DvUN7Ef3IJILWXgbH1nPAIkpqHHo4oGubIEN18tTZaHXsrrBTlwiFcgcQ+j9k6zVlJMKs7g3MvMzYejPvO/Km8CwUi0VjpTaLHFn/9bWsZcYoz1pw7Mn23I/TKB4KXZmp8ELaaLL5cRKfD+/eHUJM9STQJCWdvsjcXShOu6EMsXpuR+eYYqCawhuvgxeKdJnGydM/hvC+TmvZQIX9iU0T1i6QNAvE66E6P4ncp8zso/PUEEDHZb9miD1veWjqjqlwkj2og5MUAkplAotvHHvbXrVhguVczEy3kejOXYCkrWVfY3uCOGtDx3fyOPrz15DkJTgsrjx1I2tG0SwchI0ODqI+dYGME6Nz/b6CwYwOJ9yqybeoK2vVDHGjHKrGN3guw7Hj/qANou/tTBCbIFB85g7PefhNc2g6I=
+      secure:
     skip_cleanup: true
     on:
       tags: true
