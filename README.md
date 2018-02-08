@@ -64,7 +64,7 @@ type Options = {
 * node >= 9.5.0
 * yarn >= 1.3.2
 * apollo-link ^1.0.0
-* graphql ^0.12.0
+* graphql ^0.13.0
 
 ```sh
 $ yarn install --pure-lockfile
