@@ -51,7 +51,7 @@
     "eslint-plugin-import": "2.8.0",
     "eslint-plugin-jest": "21.7.0",
     "eslint-plugin-prettier": "2.6.0",
-    "flow-bin": "0.65.0",
+    "flow-bin": "0.87.0",
     "github-changes": "1.1.2",
     "graphql": "0.13.0",
     "graphql-tag": "2.7.3",
