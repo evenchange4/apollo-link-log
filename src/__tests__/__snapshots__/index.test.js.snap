@@ -71,5 +71,11 @@ exports[`custom logger 1`] = `
       },
     ],
   ],
+  "results": Array [
+    Object {
+      "isThrow": false,
+      "value": undefined,
+    },
+  ],
 }
 `;
