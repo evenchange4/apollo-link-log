@@ -55,16 +55,17 @@ type Options = {
 
 ## Inspiration
 
-* https://github.com/blackxored/apollo-link-logger
+- https://github.com/blackxored/apollo-link-logger
 
 ## Development
 
 ### Requirements
 
-* node >= 9.5.0
-* yarn >= 1.3.2
+- node >= 11.4.0
+- yarn >= 1.12.3
+
 * apollo-link ^1.0.0
-* graphql ^0.13.0
+* graphql ^14.0.0
 
 ```sh
 $ yarn install --pure-lockfile
@@ -85,9 +86,9 @@ $ yarn run build
 
 ## CONTRIBUTING
 
-* ⇄ Pull requests and ★ Stars are always welcome.
-* For bugs and feature requests, please create an issue.
-* Pull requests must be accompanied by passing automated tests.
+- ⇄ Pull requests and ★ Stars are always welcome.
+- For bugs and feature requests, please create an issue.
+- Pull requests must be accompanied by passing automated tests.
 
 ## [CHANGELOG](CHANGELOG.md)
 

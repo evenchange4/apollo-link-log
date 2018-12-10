@@ -1,4 +1,5 @@
 // @flow
+// $FlowFixMe
 import gql from 'graphql-tag';
 import { ApolloLink, execute, Observable, makePromise } from 'apollo-link';
 import createLogLink from '../index';

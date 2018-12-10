@@ -1,6 +1,7 @@
 /* eslint no-console: 0 */
 // @flow
 import { ApolloLink } from 'apollo-link';
+// $FlowFixMe
 import { print } from 'graphql/language';
 import chalk from 'chalk';
 
