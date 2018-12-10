@@ -1,5 +1,13 @@
 ## Change Log
 
+### v1.1.0 (2018/12/10 03:51 +00:00)
+
+- [b4a4197](https://github.com/evenchange4/apollo-link-log/commit/b4a4197e6a1780da8ff83919b42c684a82ceee63) 1.1.0 (@evenchange4)
+- [c012c1c](https://github.com/evenchange4/apollo-link-log/commit/c012c1c7e194e05c9c5e0a85b7926f7996651597) chore(travis): update npm release key (@evenchange4)
+- [#35](https://github.com/evenchange4/apollo-link-log/pull/35) refactor: update dev env & add esmodules (#35) (@evenchange4)
+- [#5](https://github.com/evenchange4/apollo-link-log/pull/5) chore(deps): update dependency apollo-link to v1.1.0 (#5) (@renovate[bot])
+- [aab3750](https://github.com/evenchange4/apollo-link-log/commit/aab37502d51355305a366f1534267c2bff54f7e1) docs(CHANGELOG): release 1.0.1 (@evenchange4)
+
 ### v1.0.1 (2018/02/08 08:45 +00:00)
 
 - [ae75a03](https://github.com/evenchange4/apollo-link-log/commit/ae75a03350077e7d9c673825fd21dc642f5edfa5) 1.0.1 (@evenchange4)
