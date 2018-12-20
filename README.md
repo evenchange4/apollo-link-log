@@ -7,10 +7,6 @@
 [![npm package][npm-badge]][npm]
 [![npm downloads][npm-downloads]][npm]
 
-[![Dependency Status][dependency-badge]][dependency]
-[![devDependency Status][devdependency-badge]][devdependency]
-[![peerDependency Status][peerdependency-badge]][peerdependency]
-
 [![prettier][prettier-badge]][prettier]
 [![license][license-badge]][license]
 
@@ -61,7 +57,7 @@ type Options = {
 
 ### Requirements
 
-- node >= 11.4.0
+- node >= 11.5.0
 - yarn >= 1.12.3
 
 * apollo-link ^1.0.0
@@ -80,6 +76,14 @@ $ yarn run eslint
 $ yarn run flow
 $ yarn run test:watch
 $ yarn run build
+```
+
+## Publish
+
+```bash
+$ npm version patch
+$ npm run changelog
+git commit & push
 ```
 
 ---
@@ -105,11 +109,5 @@ MIT: [http://michaelhsu.mit-license.org](http://michaelhsu.mit-license.org)
 [npm-downloads]: https://img.shields.io/npm/dt/apollo-link-log.svg?style=flat-square
 [license-badge]: https://img.shields.io/npm/l/apollo-link-log.svg?style=flat-square
 [license]: http://michaelhsu.mit-license.org/
-[dependency-badge]: https://david-dm.org/evenchange4/apollo-link-log.svg?style=flat-square
-[dependency]: https://david-dm.org/evenchange4/apollo-link-log
-[devdependency-badge]: https://david-dm.org/evenchange4/apollo-link-log/dev-status.svg?style=flat-square
-[devdependency]: https://david-dm.org/evenchange4/apollo-link-log#info=devDependencies
-[peerdependency-badge]: https://david-dm.org/evenchange4/apollo-link-log/peer-status.svg?style=flat-square
-[peerdependency]: https://david-dm.org/evenchange4/apollo-link-log#info=peerDependencies
 [prettier-badge]: https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square
 [prettier]: https://github.com/prettier/prettier
