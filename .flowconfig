@@ -1,7 +1,4 @@
 [ignore]
-.*/node_modules/graphql/.*
-.*/node_modules/graphql-tag/.*
-
 <PROJECT_ROOT>/es/.*
 <PROJECT_ROOT>/lib/.*
 

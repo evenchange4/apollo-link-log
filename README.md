@@ -57,8 +57,8 @@ type Options = {
 
 ### Requirements
 
-- node >= 11.5.0
-- yarn >= 1.12.3
+- node >= 11.6.0
+- yarn >= 1.13.0
 
 * apollo-link ^1.0.0
 * graphql ^14.0.0
