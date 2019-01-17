@@ -1,12 +1,26 @@
-## Unreleased (2018-12-20)
+## Unreleased (2019-01-17)
 
+## <small>1.1.1 (2019-01-17)</small>
+
+- 1.1.1 ([551a2bf](https://github.com/evenchange4/apollo-link-log/commit/551a2bf))
+- chore: ncu update & upgrade jest to use babel 7 & use node 11.5.0 & switch changelog tools ([159be26](https://github.com/evenchange4/apollo-link-log/commit/159be26))
 - chore(deps): update dependency apollo-link to v1.2.5 (#40) ([d68c4b2](https://github.com/evenchange4/apollo-link-log/commit/d68c4b2)), closes [#40](https://github.com/evenchange4/apollo-link-log/issues/40)
 - chore(deps): update dependency apollo-link to v1.2.6 (#42) ([7a8b733](https://github.com/evenchange4/apollo-link-log/commit/7a8b733)), closes [#42](https://github.com/evenchange4/apollo-link-log/issues/42)
+- chore(deps): update dependency eslint to v5.12.0 (#46) ([bc1c682](https://github.com/evenchange4/apollo-link-log/commit/bc1c682)), closes [#46](https://github.com/evenchange4/apollo-link-log/issues/46)
 - chore(deps): update dependency flow-bin to v0.88.0 (#37) ([e263fe0](https://github.com/evenchange4/apollo-link-log/commit/e263fe0)), closes [#37](https://github.com/evenchange4/apollo-link-log/issues/37)
 - chore(deps): update dependency flow-bin to v0.89.0 (#39) ([dbbe178](https://github.com/evenchange4/apollo-link-log/commit/dbbe178)), closes [#39](https://github.com/evenchange4/apollo-link-log/issues/39)
+- chore(deps): update dependency flow-bin to v0.90.0 (#53) ([702b2a5](https://github.com/evenchange4/apollo-link-log/commit/702b2a5)), closes [#53](https://github.com/evenchange4/apollo-link-log/issues/53)
+- chore(deps): update dependency graphql to v14.1.0 (#55) ([e5e85ec](https://github.com/evenchange4/apollo-link-log/commit/e5e85ec)), closes [#55](https://github.com/evenchange4/apollo-link-log/issues/55)
+- chore(deps): update dependency graphql to v14.1.1 (#56) ([cb5858a](https://github.com/evenchange4/apollo-link-log/commit/cb5858a)), closes [#56](https://github.com/evenchange4/apollo-link-log/issues/56)
 - chore(deps): update dependency hsu-scripts to v0.2.2 (#36) ([ea3f40e](https://github.com/evenchange4/apollo-link-log/commit/ea3f40e)), closes [#36](https://github.com/evenchange4/apollo-link-log/issues/36)
 - chore(deps): update dependency hsu-scripts to v0.2.3 (#38) ([6708a86](https://github.com/evenchange4/apollo-link-log/commit/6708a86)), closes [#38](https://github.com/evenchange4/apollo-link-log/issues/38)
+- chore(deps): update dependency hsu-scripts to v1 (#49) ([d5f1bac](https://github.com/evenchange4/apollo-link-log/commit/d5f1bac)), closes [#49](https://github.com/evenchange4/apollo-link-log/issues/49)
+- chore(deps): update dependency hsu-scripts to v1.0.2 (#50) ([3e2993e](https://github.com/evenchange4/apollo-link-log/commit/3e2993e)), closes [#50](https://github.com/evenchange4/apollo-link-log/issues/50)
 - chore(deps): update dependency husky to v1.2.1 (#41) ([58345e6](https://github.com/evenchange4/apollo-link-log/commit/58345e6)), closes [#41](https://github.com/evenchange4/apollo-link-log/issues/41)
+- chore(deps): update dependency husky to v1.3.1 (#48) ([6d7e355](https://github.com/evenchange4/apollo-link-log/commit/6d7e355)), closes [#48](https://github.com/evenchange4/apollo-link-log/issues/48)
+- chore(deps): update dependency jest to v24.0.0-alpha.10 (#51) ([277994e](https://github.com/evenchange4/apollo-link-log/commit/277994e)), closes [#51](https://github.com/evenchange4/apollo-link-log/issues/51)
+- chore(deps): update dependency jest to v24.0.0-alpha.11 (#52) ([66e6dd2](https://github.com/evenchange4/apollo-link-log/commit/66e6dd2)), closes [#52](https://github.com/evenchange4/apollo-link-log/issues/52)
+- chore(deps): update dependency jest to v24.0.0-alpha.12 (#54) ([ce28fb3](https://github.com/evenchange4/apollo-link-log/commit/ce28fb3)), closes [#54](https://github.com/evenchange4/apollo-link-log/issues/54)
 - docs(CHANGELOG): release 1.1.0 ([21622da](https://github.com/evenchange4/apollo-link-log/commit/21622da))
 
 ## 1.1.0 (2018-12-10)
