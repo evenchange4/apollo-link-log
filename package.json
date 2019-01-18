@@ -32,7 +32,7 @@
     "codecov": "3.1.0",
     "conventional-changelog-cli": "2.0.11",
     "eslint": "5.12.0",
-    "flow-bin": "0.90.0",
+    "flow-bin": "0.91.0",
     "graphql": "14.1.1",
     "graphql-tag": "2.10.1",
     "hsu-scripts": "1.0.2",
