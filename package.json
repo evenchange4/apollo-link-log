@@ -27,7 +27,7 @@
     "chalk": "^2.4.2"
   },
   "devDependencies": {
-    "apollo-link": "1.2.6",
+    "apollo-link": "1.2.8",
     "ast-pretty-print": "2.0.1",
     "codecov": "3.1.0",
     "conventional-changelog-cli": "2.0.11",
