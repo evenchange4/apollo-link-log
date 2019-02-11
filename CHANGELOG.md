@@ -1,4 +1,20 @@
-## Unreleased (2019-01-17)
+## Unreleased (2019-02-11)
+
+## <small>1.1.2 (2019-02-11)</small>
+
+- 1.1.2 ([088cead](https://github.com/evenchange4/apollo-link-log/commit/088cead))
+- chore(deps): ncu update ([7d14b9a](https://github.com/evenchange4/apollo-link-log/commit/7d14b9a))
+- chore(deps): update dependency eslint to v5.12.1 (#60) ([9a6afcd](https://github.com/evenchange4/apollo-link-log/commit/9a6afcd)), closes [#60](https://github.com/evenchange4/apollo-link-log/issues/60)
+- chore(deps): update dependency flow-bin to v0.91.0 (#58) ([5b5440b](https://github.com/evenchange4/apollo-link-log/commit/5b5440b)), closes [#58](https://github.com/evenchange4/apollo-link-log/issues/58)
+- chore(deps): update dependency graphql-tag to v2.10.1 (#57) ([95b82fd](https://github.com/evenchange4/apollo-link-log/commit/95b82fd)), closes [#57](https://github.com/evenchange4/apollo-link-log/issues/57)
+- chore(deps): update dependency jest to v24.0.0 (#65) ([00e1734](https://github.com/evenchange4/apollo-link-log/commit/00e1734)), closes [#65](https://github.com/evenchange4/apollo-link-log/issues/65)
+- chore(deps): update dependency jest to v24.0.0-alpha.13 (#63) ([19e9d78](https://github.com/evenchange4/apollo-link-log/commit/19e9d78)), closes [#63](https://github.com/evenchange4/apollo-link-log/issues/63)
+- chore(deps): update dependency jest to v24.0.0-alpha.15 (#64) ([9f64938](https://github.com/evenchange4/apollo-link-log/commit/9f64938)), closes [#64](https://github.com/evenchange4/apollo-link-log/issues/64)
+- chore(deps): update dependency lint-staged to v8.1.1 (#66) ([112d12a](https://github.com/evenchange4/apollo-link-log/commit/112d12a)), closes [#66](https://github.com/evenchange4/apollo-link-log/issues/66)
+- chore(deps): update dependency prettier to v1.16.0 (#61) ([2ac1449](https://github.com/evenchange4/apollo-link-log/commit/2ac1449)), closes [#61](https://github.com/evenchange4/apollo-link-log/issues/61)
+- chore(deps): update dependency prettier to v1.16.1 (#62) ([f74cc81](https://github.com/evenchange4/apollo-link-log/commit/f74cc81)), closes [#62](https://github.com/evenchange4/apollo-link-log/issues/62)
+- chore(deps): update dependency prettier to v1.16.2 (#67) ([e72d49a](https://github.com/evenchange4/apollo-link-log/commit/e72d49a)), closes [#67](https://github.com/evenchange4/apollo-link-log/issues/67)
+- docs(CHANGELOG): release 1.1.1 ([25c0832](https://github.com/evenchange4/apollo-link-log/commit/25c0832))
 
 ## <small>1.1.1 (2019-01-17)</small>
 
