@@ -57,7 +57,7 @@ type Options = {
 
 ### Requirements
 
-- node >= 11.6.0
+- node >= 11.9.0
 - yarn >= 1.13.0
 
 * apollo-link ^1.0.0
