@@ -1,14 +1,12 @@
 {
   "name": "apollo-link-log",
   "version": "1.1.2",
-  "typings": "./index.d.ts",
   "main": "lib/index.js",
   "module": "es/index.js",
   "sideEffects": false,
   "files": [
     "es",
-    "lib",
-    "index.d.ts"
+    "lib"
   ],
   "scripts": {
     "build": "hsu-scripts build src",
