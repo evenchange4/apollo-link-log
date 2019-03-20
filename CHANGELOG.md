@@ -1,4 +1,19 @@
-## Unreleased (2019-02-11)
+## Unreleased (2019-03-20)
+
+## <small>1.1.3 (2019-03-20)</small>
+
+- 1.1.3 ([6aaee2b](https://github.com/evenchange4/apollo-link-log/commit/6aaee2b))
+- fix: Delete index.d.ts (#89) ([42e7d4c](https://github.com/evenchange4/apollo-link-log/commit/42e7d4c)), closes [#89](https://github.com/evenchange4/apollo-link-log/issues/89)
+- fix(npm): remove ts types ([f589f9c](https://github.com/evenchange4/apollo-link-log/commit/f589f9c))
+- chore(deps): update dependency codecov to v3.2.0 (#75) ([2afc394](https://github.com/evenchange4/apollo-link-log/commit/2afc394)), closes [#75](https://github.com/evenchange4/apollo-link-log/issues/75)
+- chore(deps): update dependency conventional-changelog-cli to v2.0.12 (#78) ([2657ef9](https://github.com/evenchange4/apollo-link-log/commit/2657ef9)), closes [#78](https://github.com/evenchange4/apollo-link-log/issues/78)
+- chore(deps): update dependency eslint to v5.14.0 (#80) ([0b16034](https://github.com/evenchange4/apollo-link-log/commit/0b16034)), closes [#80](https://github.com/evenchange4/apollo-link-log/issues/80)
+- chore(deps): update dependency eslint to v5.14.1 (#81) ([61dda81](https://github.com/evenchange4/apollo-link-log/commit/61dda81)), closes [#81](https://github.com/evenchange4/apollo-link-log/issues/81)
+- chore(deps): update dependency flow-bin to v0.93.0 (#76) ([2476958](https://github.com/evenchange4/apollo-link-log/commit/2476958)), closes [#76](https://github.com/evenchange4/apollo-link-log/issues/76)
+- chore(deps): update dependency hsu-scripts to v1.0.6 (#82) ([c8d559f](https://github.com/evenchange4/apollo-link-log/commit/c8d559f)), closes [#82](https://github.com/evenchange4/apollo-link-log/issues/82)
+- chore(deps): update dependency hsu-scripts to v1.0.7 (#83) ([6d8cb05](https://github.com/evenchange4/apollo-link-log/commit/6d8cb05)), closes [#83](https://github.com/evenchange4/apollo-link-log/issues/83)
+- chore(deps): update dependency lint-staged to v8.1.4 (#77) ([43a4e1b](https://github.com/evenchange4/apollo-link-log/commit/43a4e1b)), closes [#77](https://github.com/evenchange4/apollo-link-log/issues/77)
+- docs(CHANGELOG): release 1.1.2 ([9c7bc36](https://github.com/evenchange4/apollo-link-log/commit/9c7bc36))
 
 ## <small>1.1.2 (2019-02-11)</small>
 
