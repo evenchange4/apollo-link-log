@@ -22,7 +22,7 @@
     "changelog": "conventional-changelog --infile ./CHANGELOG.md --same-file --release-count 0 --output-unreleased"
   },
   "dependencies": {
-    "chalk": "^2.4.2"
+    "chalk": "^4.0.0"
   },
   "devDependencies": {
     "apollo-link": "1.2.8",
